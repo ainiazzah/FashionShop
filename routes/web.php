@@ -1,26 +1,32 @@
 <?php
-
+//Menggunakan fasad Route dari Laravel, yang memberikan akses ke fitur routing di dalam aplikasi.
 use Illuminate\Support\Facades\Route;
+//Menggunakan controller ShopController yang terletak di namespace Admin.
 use App\Http\Controllers\Admin\ShopController;
+//Menggunakan controller CategoryController yang terletak di namespace Admin.
 use App\Http\Controllers\Admin\CategoryController;
+//Menggunakan controller ProductController yang terletak di namespace Admin.
 use App\Http\Controllers\Admin\ProductController;
+//Menggunakan controller OrderController yang terletak di namespace Admin.
 use App\Http\Controllers\Admin\OrderController;
+//Menggunakan controller ClientController yang terletak di namespace Client.
 use App\Http\Controllers\Client\ClientController;
+//Menggunakan controller CartController yang terletak di namespace Client.
 use App\Http\Controllers\Client\CartController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Rute Web
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| Di sinilah Anda dapat mendaftarkan rute web untuk aplikasi Anda. 
+| Rute ini dimuat oleh RouteServiceProvider dalam grup yang
+| berisi grup middleware "web". Sekarang ciptakan sesuatu yang hebat!
 |
 */
 
 // Client
-
+//Mendefinisikan beberapa rute di dalam framework Laravel untuk menangani berbagai permintaan terkait dengan klien pada aplikasi web. 
 Route::controller(ClientController::class)->group(function(){
     Route::get('/', 'index')->name('clientHome');
     Route::get('/products', 'products')->name('clientProducts');
