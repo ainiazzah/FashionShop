@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-
+//Mendefinisikan sebuah anonymous class yang extends (memperluas) kelas Migration
 return new class extends Migration
 {
     /**
@@ -11,8 +11,9 @@ return new class extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up() //metode yang harus diimplementasikan oleh setiap migration berisi instruksi-instruksi yang akan dijalankan ketika migration dijalankan.
     {
+        //Membuat tabel baru dengan nama 'product_images'.
         Schema::create('product_images', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('product_id');
