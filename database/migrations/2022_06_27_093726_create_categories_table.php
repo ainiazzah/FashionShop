@@ -11,15 +11,17 @@ return new class extends Migration
      *
      * @return void
      */
+    //metode yang akan dijalankan ketika migration dijalankan.
     public function up()
     {
         Schema::create('categories', function (Blueprint $table) {
-            $table->id();
-            $table->unsignedBigInteger('shop_id');
-            $table->string('name');
-            $table->string('path');
+            $table->id(); //Membuat kolom id sebagai auto-incrementing primary key.
+            $table->unsignedBigInteger('shop_id'); //Menambahkan kolom shop_id sebagai foreign key yang merujuk ke kolom id pada tabel shops.
+            $table->string('name'); //Menambahkan kolom name sebagai kolom string untuk menyimpan nama kategori.
+            $table->string('path'); //Menambahkan kolom path sebagai kolom string untuk menyimpan path (jalur) kategori.
+            // Menambahkan foreign key constraint pada kolom shop_id yang merujuk ke tabel shops. 
             $table->foreign('shop_id')->references('id')->on('shops')->onUpdate('cascade')->onDelete('cascade');
-            $table->timestamps();
+            $table->timestamps(); //Menambahkan kolom created_at dan updated_at
         });
     }
 
@@ -30,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('categories');
+        Schema::dropIfExists('categories'); //Menghapus tabel dengan nama 'categories'
     }
 };
