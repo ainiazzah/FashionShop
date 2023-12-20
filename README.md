@@ -7,9 +7,6 @@ Website Rekomendasi Film
 3. 21091397028 - Kania Meliana Fityanti
 4. 21091397064 - Bagas Syafiq Aero P
 
-Link Hosting
-https://22091397013miftakhdamarfaizin.github.io/2022A-Kelompok-8/ 
-
 A. Deskripsi  
 
 Fashion Shop (Fashop) merupakan platform berbasis website yang menawarkan berbagai macam barang fashion di dalamnya. Produk yang ditawarkan di dalam website ini antara lain seperti: diantaranya seperti sepatu, sandal, baju, peralatan make up, dan lain sebagainya. Latar belakang dari dikembangkannya website ini yaitu untuk mempermudah para konsumen dalam pembelian barang di toko kami, selain itu website ini juga dirancang untuk para konsumen yang ingin membeli barang tanpa harus pergi ke toko secara offline.
