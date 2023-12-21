@@ -31,19 +31,19 @@ Dalam proses membuat website ini diperlukan antarmuka perangkat lunak yang penti
 
 # D. Desain User interface
 
-![Gambar User interface](./public/assets/images/pages/HalamanHome.png)
+![Gambar User interface](./public/client/img/pages/HalamanHome.png)
 
-![Gambar User interface](./public/assets/images/pages/HalamanProduct.png)
+![Gambar User interface](./public/client/img/pages/HalamanProduct.png)
 
-![Gambar User interface](./public/assets/images/pages/HalamanKategori.png)
+![Gambar User interface](./public/client/img/pages/HalamanKategori.png)
 
-![Gambar User interface](./public/assets/images/pages/HalamanAboutUs.png)
+![Gambar User interface](./public/client/img/pages/HalamanAboutUs.png)
  
 # E. Use Case Diagram 
 
-![Gambar Use Case](./public/assets/images/pages/usecsase.png)
+![Gambar Use Case](./public/client/img/pages/usecsase.png)
 
  
 # F. Flowchart
 
-![Gambar Flowchart](./public/assets/images/pages/flowchart.png) 
+![Gambar Flowchart](./public/client/img/pages/flowchart.png) 
