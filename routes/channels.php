@@ -4,12 +4,12 @@ use Illuminate\Support\Facades\Broadcast;
 
 /*
 |--------------------------------------------------------------------------
-| Broadcast Channels
+| Saluran Siaran
 |--------------------------------------------------------------------------
 |
-| Here you may register all of the event broadcasting channels that your
-| application supports. The given channel authorization callbacks are
-| used to check if an authenticated user can listen to the channel.
+|Di sini Anda dapat mendaftarkan semua saluran penyiaran acara yang Anda miliki
+| dukungan aplikasi. Callback otorisasi saluran yang diberikan adalah
+| digunakan untuk memeriksa apakah pengguna yang diautentikasi dapat mendengarkan saluran.
 |
 */
 
